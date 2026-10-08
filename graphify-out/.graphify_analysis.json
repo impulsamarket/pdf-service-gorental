@@ -1,0 +1,97 @@
+{
+  "communities": {
+    "0": [
+      "cors",
+      "express",
+      "package_dependencies",
+      "package_dependencies_cors",
+      "package_dependencies_express",
+      "package_dependencies_puppeteer",
+      "puppeteer"
+    ],
+    "1": [
+      "railway",
+      "railway_build",
+      "railway_build_builder",
+      "railway_deploy",
+      "railway_deploy_restartpolicytype",
+      "railway_deploy_startcommand",
+      "railway_schema"
+    ],
+    "2": [
+      "package",
+      "package_name",
+      "package_scripts",
+      "package_scripts_start",
+      "package_type",
+      "package_version"
+    ],
+    "3": [
+      "index",
+      "index_app"
+    ]
+  },
+  "cohesion": {
+    "0": 0.2857142857142857,
+    "1": 0.2857142857142857,
+    "2": 0.3333333333333333,
+    "3": 1.0
+  },
+  "gods": [
+    {
+      "id": "railway_deploy",
+      "label": "deploy",
+      "degree": 3
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 2
+    },
+    {
+      "id": "package_dependencies_puppeteer",
+      "label": "puppeteer",
+      "degree": 2
+    },
+    {
+      "id": "package_dependencies_express",
+      "label": "express",
+      "degree": 2
+    },
+    {
+      "id": "package_dependencies_cors",
+      "label": "cors",
+      "degree": 2
+    },
+    {
+      "id": "railway_build",
+      "label": "build",
+      "degree": 2
+    },
+    {
+      "id": "index_app",
+      "label": "app",
+      "degree": 1
+    },
+    {
+      "id": "puppeteer",
+      "label": "puppeteer",
+      "degree": 1
+    },
+    {
+      "id": "express",
+      "label": "express",
+      "degree": 1
+    },
+    {
+      "id": "cors",
+      "label": "cors",
+      "degree": 1
+    }
+  ],
+  "surprises": [],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
