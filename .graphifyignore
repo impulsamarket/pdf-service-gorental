@@ -1,0 +1,4 @@
+# Lo que graphify no indexa (lo mantiene el sync de grafos de Kora).
+*.min.js
+*.min.mjs
+.session-context/
